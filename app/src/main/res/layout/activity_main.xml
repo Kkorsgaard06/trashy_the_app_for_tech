@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#ffe83c"
+    android:gravity="bottom"
+    >
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffe83c"
+        android:textSize="26sp"
+        android:text="scan"
+        android:backgroundTint="#7e8025"
+        android:id="@+id/btnScan"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:fontFamily="serif"
+        />
+    <ImageView
+        android:id="@+id/imageViewBarCode"
+        android:layout_width="wrap_content"
+        android:layout_height="600dp"
+        android:src="@drawable/img" />
+
+</LinearLayout>
